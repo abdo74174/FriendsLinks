@@ -1,5 +1,5 @@
 class DataService {
-    static API_URL = 'http://friendslinks.runasp.net/api/Profile'; // Using HTTP for simplicity if HTTPS fails local cert check, or use 7116 for HTTPS
+    static API_URL = 'https://friendslinks.runasp.net/api/Profile'; // Using HTTP for simplicity if HTTPS fails local cert check, or use 7116 for HTTPS
 
     static async getAllProfiles() {
         try {
